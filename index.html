@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="style.css" />
+		<script defer src="script.js"></script>
+		<title>Snake Game</title>
+	</head>
+	<body>
+		<a href="https://github.com/jhullyyy/snake_game_dio">
+			<h1>Snake Game 🐍</h1>
+		</a>
+		<canvas id="snake" width="512" height="512"></canvas>
+		<!--esse id não foi utilizado no js, foi usado diretamente o canvas-->
+		<div id="mobile-controls">
+			<button onclick="setDirection('up')">⬆️</button>
+			<button onclick="setDirection('left')">⬅️</button>
+			<button onclick="setDirection('down')">⬇️</button>
+			<button onclick="setDirection('right')">➡️</button>
+		</div>
+	</body>
+</html>
